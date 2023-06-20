@@ -1,4 +1,4 @@
-function Sobre (){
+/* function Sobre (){
     return (
         <div>
             <h1>Front End</h1>
@@ -7,4 +7,4 @@ function Sobre (){
     )
 }
 
-export default Sobre;
+export default Sobre;*/

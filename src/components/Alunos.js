@@ -133,7 +133,7 @@ class Alunos extends React.Component {
 
         <Modal show={showModal} onHide={this.handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title>{editando ? "Editar Aluno" : "Cadastrar"}</Modal.Title>
+            <Modal.Title>{editando ? "Editar" : "Cadastrar"}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <Form.Group controlId="nome">
@@ -170,7 +170,7 @@ class Alunos extends React.Component {
             <br></br>
             <tr>
               <th>Período</th>
-              <th>Email</th>
+              <th>Email do Coordenador</th>
               <th>Ações</th>
             </tr>
           </thead>
